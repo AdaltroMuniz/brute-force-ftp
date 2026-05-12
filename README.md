@@ -2,6 +2,7 @@
 ataque de força bruta
 
 #!/usr/bin/python3
+
 import socket, sys, re
 
 if len(sys.argv) != 3:
@@ -9,6 +10,7 @@ if len(sys.argv) != 3:
     sys.exit(0)
 
 target = sys.argv[1]
+
 usuario = sys.argv[2]
 
 f = open('wordlist.txt')
